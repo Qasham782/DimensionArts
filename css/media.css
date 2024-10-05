@@ -1,0 +1,73 @@
+@media screen and (max-width:900px) {
+    .bg {
+        padding: 5em;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bg>h4 {
+        font-size: 1.1rem;
+    }
+    
+    .bg>h1 {
+        font-size: 2rem;
+    }
+   .Categories{
+    text-align: center;
+   }
+ .About{
+    text-align: center;
+ }
+}
+@media screen and (max-width:420px) {
+    .bg {
+        padding: 5em;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bg>h4 {
+        font-size: 1rem;
+    }
+    
+    .bg>h1 {
+        font-size: 1.5rem;
+    }
+    
+    .btns {
+        height: 40px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+
+    .About h4{
+        font-size: 2rem;
+    }
+    .About p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:350px) {
+    .bg {
+        padding: 5em;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bg>h4 {
+        font-size: 1rem;
+    }
+    
+    .bg>h1 {
+        font-size: 1.2rem;
+    }
+
+    .btns {
+        height: 30px;
+        width: 120px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    
+}

@@ -1,0 +1,218 @@
+
+
+h2, h3, h5 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar-brand h4 {
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+
+
+/* About Section */
+.about-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff4c4c;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+.about-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission Section */
+.mission-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.mission-section h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ff4c4c;
+}
+
+.mission-section p {
+    font-size: 18px;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Team Section */
+.team-section {
+    padding: 60px 0;
+}
+
+.team-section h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #ff4c4c;
+}
+
+.team-section .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-section .card:hover {
+    transform: scale(1.05);
+}
+
+.team-section .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.team-section .card-body {
+    text-align: center;
+}
+
+.team-section .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+.team-section .card-text {
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    padding: 40px 0;
+}
+
+footer h5 {
+    color: #ff4c4c;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer ul li a:hover {
+    color: #ff4c4c;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer .rights {
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    color: white;
+}
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.why-choose-us h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #ff4c4c;
+}
+
+.why-choose-us .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us .card:hover {
+    transform: scale(1.05);
+}
+
+.why-choose-us .icon {
+    color: #ff4c4c;
+}
+
+.why-choose-us .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+.why-choose-us .card-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .why-choose-us h3 {
+        font-size: 26px;
+    }
+    
+    .why-choose-us .card-title {
+        font-size: 18px;
+    }
+
+    .why-choose-us .card-text {
+        font-size: 14px;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about-section h2, 
+    .mission-section h3, 
+    .team-section h3 {
+        font-size: 28px;
+    }
+
+    .about-section p, 
+    .mission-section p {
+        font-size: 16px;
+    }
+
+    .team-section .card-title {
+        font-size: 18px;
+    }
+
+    .team-section .card-text {
+        font-size: 14px;
+    }
+}

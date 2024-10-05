@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    scroll-behavior: smooth;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, rgb(218, 213, 213) 0%, rgb(218, 213, 213) );
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, red 0%, #ff3300 100%);
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+    border-radius: 0.8rem;
+    background-clip: content-box;
+}
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* body{
+    background-color: rgb(22, 1, 22);
+    color: white;
+} */
+
+header {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.navbar-brand>h4 {
+    color: rgb(240, 20, 20);
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+}
+.bg {
+    padding: 7em;
+    color: white;
+    width: 55%;
+    position: relative;
+    z-index: 1;
+}
+
+.bg>h4 {
+    color: rgb(240, 20, 20);
+    font-size: 1.3rem;
+    animation: animate 0.2s linear infinite;
+
+}
+
+.bg>h1 {
+    color: white;
+    text-shadow: 2px 0 0 black;
+}
+
+.navbar-brand>img {
+    height: 5vh;
+}
+
+.navbar-brand {
+    padding-left: 2rem;
+}
+
+.navbar {
+    z-index: 1;
+    position: relative;
+}
+
+.navbar-nav {
+    padding-right: 0rem;
+}
+
+.nav-item {
+    margin-right: 3rem;
+}
+
+.nav-item.dropdown {
+    margin-right: 3rem;
+    background-color: transparent;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgb(253, 124, 4);
+    transition: all 0.5s ease-in;
+}
+.navbar-toggler.custom-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-toggler.custom-toggler .fas {
+    color: red; /* Set your color here */
+  }
+.active {
+    color: red;
+}
+
+.btns {
+
+    margin-top: 1rem;
+    cursor: pointer;
+    background: rgb(240, 20, 20);
+    height: 50px;
+    width: 170px;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 0;
+
+}
+
+.btns:hover {
+    background-color: white;
+    color: black;
+    transition: all ease 1s;
+}
+
+/* about */
+
+.About {
+    padding: 2em;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+
+}
+
+.imgs>img {
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px rgb(129, 126, 126);
+}
+
+.About h4 {
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.About p {
+    font-size: 1.2rem;
+}
+.part3 {
+    height: 60vh;
+    background: url('../img/partner01.jpg') no-repeat center top fixed;
+    display: table;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+  
+/* review */
+
+.Reviews-sec {
+    padding: 5em;
+}
+
+.review-author {
+    color: black;
+    font-weight: bold;
+}
+
+.review-text {
+    color: black;
+}
+
+.review-img {
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgb(129, 126, 126);
+    margin-bottom: 1rem;
+}
+
+.stars {
+    height: 70px;
+}
+
+.carousel-indicators button {
+    background-color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+}
+
+/* categpr */
+.Categories {
+    padding: 4em;
+}
+
+.card-hover {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 3px 3px 10px rgb(116, 113, 113);
+    border: 0;
+}
+
+.card-hover img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 250px;
+}
+
+.card-hover video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 250px;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px rgb(240, 20, 20);
+}
+
+.card-hover .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    color: white;
+    transition: opacity 0.3s;
+}
+
+.card-hover:hover .card-body {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rights {
+    animation: animate 0.2s linear infinite;
+    font-size: 1rem;
+}
+
+@keyframes animate {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: white;
+        box-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        text-shadow: 0 0 10px rgb(240, 20, 20), 0 0 20px rgb(240, 20, 20), 0 0 40px rgb(240, 20, 20), 0 0 80px rgb(240, 20, 20), 0 0 120px rgb(240, 20, 20);
+    }
+
+}
